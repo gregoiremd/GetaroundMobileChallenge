@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192CC14767FF05A3B4FABFAF /* Pods_GetaroundMobileChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FCDBE6672E8AB1ACA60E57 /* Pods_GetaroundMobileChallenge.framework */; };
 		A3DCA5BE27D258DD005930B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5BD27D258DD005930B5 /* AppDelegate.swift */; };
 		A3DCA5C027D258DD005930B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5BF27D258DD005930B5 /* SceneDelegate.swift */; };
-		A3DCA5C227D258DD005930B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5C127D258DD005930B5 /* ViewController.swift */; };
+		A3DCA5C227D258DD005930B5 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5C127D258DD005930B5 /* CarsViewController.swift */; };
 		A3DCA5C527D258DD005930B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DCA5C327D258DD005930B5 /* Main.storyboard */; };
 		A3DCA5C727D258DE005930B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DCA5C627D258DE005930B5 /* Assets.xcassets */; };
 		A3DCA5CA27D258DE005930B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DCA5C827D258DE005930B5 /* LaunchScreen.storyboard */; };
+		A3DCA5D227D25B2B005930B5 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5D127D25B2B005930B5 /* Car.swift */; };
+		A3DCA5D427D25B6B005930B5 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5D327D25B6A005930B5 /* Rating.swift */; };
+		A3DCA5D627D25B9E005930B5 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5D527D25B9E005930B5 /* Owner.swift */; };
+		A3DCA5D827D269DA005930B5 /* CarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5D727D269DA005930B5 /* CarCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50FCDBE6672E8AB1ACA60E57 /* Pods_GetaroundMobileChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetaroundMobileChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DCA5BA27D258DD005930B5 /* GetaroundMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetaroundMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DCA5BD27D258DD005930B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3DCA5BF27D258DD005930B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3DCA5C127D258DD005930B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3DCA5C127D258DD005930B5 /* CarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
 		A3DCA5C427D258DD005930B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3DCA5C627D258DE005930B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3DCA5C927D258DE005930B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3DCA5CB27D258DE005930B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DCA5D127D25B2B005930B5 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		A3DCA5D327D25B6A005930B5 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		A3DCA5D527D25B9E005930B5 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		A3DCA5D727D269DA005930B5 /* CarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCollectionViewCell.swift; sourceTree = "<group>"; };
+		A800040E5DDBEBCF096BEF64 /* Pods-GetaroundMobileChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetaroundMobileChallenge.debug.xcconfig"; path = "Target Support Files/Pods-GetaroundMobileChallenge/Pods-GetaroundMobileChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E2F453D09210D4C314DF96 /* Pods-GetaroundMobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetaroundMobileChallenge.release.xcconfig"; path = "Target Support Files/Pods-GetaroundMobileChallenge/Pods-GetaroundMobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192CC14767FF05A3B4FABFAF /* Pods_GetaroundMobileChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A36E6B9727D636770043A40B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A3DCA5C127D258DD005930B5 /* CarsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A36E6B9827D6368C0043A40B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A3DCA5D527D25B9E005930B5 /* Owner.swift */,
+				A3DCA5D327D25B6A005930B5 /* Rating.swift */,
+				A3DCA5D127D25B2B005930B5 /* Car.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A36E6B9927D636B60043A40B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A3DCA5C327D258DD005930B5 /* Main.storyboard */,
+				A3DCA5C827D258DE005930B5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A36E6B9A27D636D80043A40B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3DCA5D727D269DA005930B5 /* CarCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A3DCA5B127D258DD005930B5 = {
 			isa = PBXGroup;
 			children = (
 				A3DCA5BC27D258DD005930B5 /* GetaroundMobileChallenge */,
 				A3DCA5BB27D258DD005930B5 /* Products */,
+				BEA601D6B1E866340851DFF1 /* Pods */,
+				DAC640B5719F285A09201355 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,33 @@
 		A3DCA5BC27D258DD005930B5 /* GetaroundMobileChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				A3DCA5CB27D258DE005930B5 /* Info.plist */,
 				A3DCA5BD27D258DD005930B5 /* AppDelegate.swift */,
 				A3DCA5BF27D258DD005930B5 /* SceneDelegate.swift */,
-				A3DCA5C127D258DD005930B5 /* ViewController.swift */,
-				A3DCA5C327D258DD005930B5 /* Main.storyboard */,
 				A3DCA5C627D258DE005930B5 /* Assets.xcassets */,
-				A3DCA5C827D258DE005930B5 /* LaunchScreen.storyboard */,
-				A3DCA5CB27D258DE005930B5 /* Info.plist */,
+				A36E6B9727D636770043A40B /* Controller */,
+				A36E6B9827D6368C0043A40B /* Entity */,
+				A36E6B9927D636B60043A40B /* Storyboard */,
+				A36E6B9A27D636D80043A40B /* View */,
 			);
 			path = GetaroundMobileChallenge;
+			sourceTree = "<group>";
+		};
+		BEA601D6B1E866340851DFF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A800040E5DDBEBCF096BEF64 /* Pods-GetaroundMobileChallenge.debug.xcconfig */,
+				E5E2F453D09210D4C314DF96 /* Pods-GetaroundMobileChallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DAC640B5719F285A09201355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50FCDBE6672E8AB1ACA60E57 /* Pods_GetaroundMobileChallenge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3DCA5CE27D258DE005930B5 /* Build configuration list for PBXNativeTarget "GetaroundMobileChallenge" */;
 			buildPhases = (
+				0048048CAB6465DBC87AFEFE /* [CP] Check Pods Manifest.lock */,
 				A3DCA5B627D258DD005930B5 /* Sources */,
 				A3DCA5B727D258DD005930B5 /* Frameworks */,
 				A3DCA5B827D258DD005930B5 /* Resources */,
+				80B5E411DE88824752C4581A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +203,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0048048CAB6465DBC87AFEFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetaroundMobileChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80B5E411DE88824752C4581A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetaroundMobileChallenge/Pods-GetaroundMobileChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetaroundMobileChallenge/Pods-GetaroundMobileChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetaroundMobileChallenge/Pods-GetaroundMobileChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3DCA5B627D258DD005930B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DCA5C227D258DD005930B5 /* ViewController.swift in Sources */,
+				A3DCA5C227D258DD005930B5 /* CarsViewController.swift in Sources */,
+				A3DCA5D827D269DA005930B5 /* CarCollectionViewCell.swift in Sources */,
+				A3DCA5D627D25B9E005930B5 /* Owner.swift in Sources */,
 				A3DCA5BE27D258DD005930B5 /* AppDelegate.swift in Sources */,
+				A3DCA5D427D25B6B005930B5 /* Rating.swift in Sources */,
+				A3DCA5D227D25B2B005930B5 /* Car.swift in Sources */,
 				A3DCA5C027D258DD005930B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +400,7 @@
 		};
 		A3DCA5CF27D258DE005930B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A800040E5DDBEBCF096BEF64 /* Pods-GetaroundMobileChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,8 +409,9 @@
 				DEVELOPMENT_TEAM = P2Z79W9YYA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GetaroundMobileChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Getaround Mobile Challenge";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -312,6 +430,7 @@
 		};
 		A3DCA5D027D258DE005930B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E2F453D09210D4C314DF96 /* Pods-GetaroundMobileChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,8 +439,9 @@
 				DEVELOPMENT_TEAM = P2Z79W9YYA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GetaroundMobileChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Getaround Mobile Challenge";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

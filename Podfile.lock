@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.5.0)
+  - Cosmos (23.0.0)
+  - HanekeSwift (1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.5)
+  - Cosmos (~> 23.0)
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: a2e8e5b9a91eef90138a4f43c9a0044c4e90a6ef
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  HanekeSwift: 0ee43c4cfe871ef8cc7382bda8729b6374c41748
+
+PODFILE CHECKSUM: 59c6eb779ae9d49d28a7b05e3bc77a2b7987243d
+
+COCOAPODS: 1.11.2

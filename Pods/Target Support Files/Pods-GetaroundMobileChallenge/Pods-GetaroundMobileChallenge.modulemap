@@ -1,0 +1,6 @@
+framework module Pods_GetaroundMobileChallenge {
+  umbrella header "Pods-GetaroundMobileChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}
