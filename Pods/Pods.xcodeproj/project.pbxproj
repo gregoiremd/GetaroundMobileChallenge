@@ -122,7 +122,7 @@
 		01F4F0812D6B3B2484A2C603E4340EA2 /* Cosmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.release.xcconfig; sourceTree = "<group>"; };
 		0364D730DE06E085D8467D3C7C205C5B /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		046633C0A63E6E5FDB427A5A750AA0C7 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
-		05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		083BA9A14685BA5532B1D76CBCE007B7 /* HanekeSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HanekeSwift-Info.plist"; sourceTree = "<group>"; };
 		08F52C8B8A34ED4EAE56C8A7A8F40372 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
 		098DE359CA9D3A0D12546F8CEC0DD9EC /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 		5C35B0FD97855534168CB8A259222953 /* Pods-GetaroundMobileChallenge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GetaroundMobileChallenge-Info.plist"; sourceTree = "<group>"; };
 		5C888B96192D293422B37AC6F0208D87 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		5CF23C6950562B46417C8E6BE39E21B6 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4CCFF872DA2005F788D065065CC666 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
 		5FD2A0D1C9922980562BF9FA24838EE7 /* UIView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
 		61359ADD7695B5A0599CB116A5B12ABC /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
@@ -185,8 +185,8 @@
 		97FEFC70BE9ADCBB67CD6D9AC339976C /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		987EF5A47DDE9D1837DA2462F701965F /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		9AC533F564449815F0E630EC9F36ABB8 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
-		9B9369D059BE317AE8B96A55B3AA2AD4 /* HanekeSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HanekeSwift; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B9369D059BE317AE8B96A55B3AA2AD4 /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F8931299CDDB0B5FA120045F6039B61 /* HanekeSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HanekeSwift.debug.xcconfig; sourceTree = "<group>"; };
 		A8DC0014A3E6AA0D67DBA69F2C15D606 /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
 		A914386A25228F83C32FEC6C798BED09 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Haneke/Data.swift; sourceTree = "<group>"; };
@@ -329,7 +329,6 @@
 				6F9FE5472CEFB2D0B7384266A7EA0E6B /* Validation.swift */,
 				159828F46533AB6BF967CB328A437F6D /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -412,7 +411,6 @@
 				116E56F42C3933EFA2301A68D691D45A /* StarLayer.swift */,
 				C5DBB55AF03E612A916FBC44627BFAC5 /* Support Files */,
 			);
-			name = Cosmos;
 			path = Cosmos;
 			sourceTree = "<group>";
 		};
@@ -441,7 +439,6 @@
 				5FD2A0D1C9922980562BF9FA24838EE7 /* UIView+Haneke.swift */,
 				3BE1BE4DD80BF267B11F100180626CC2 /* Support Files */,
 			);
-			name = HanekeSwift;
 			path = HanekeSwift;
 			sourceTree = "<group>";
 		};
@@ -463,9 +460,9 @@
 		CC28029D8D7093AA1D1EBFE151C391AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */,
-				9B9369D059BE317AE8B96A55B3AA2AD4 /* HanekeSwift */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */,
+				9B9369D059BE317AE8B96A55B3AA2AD4 /* Haneke.framework */,
 				905CDA4F2B0214D9D34EEB7FF5512721 /* Pods-GetaroundMobileChallenge */,
 			);
 			name = Products;
@@ -535,7 +532,7 @@
 			);
 			name = Cosmos;
 			productName = Cosmos;
-			productReference = 05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */;
+			productReference = 05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		37F4764FFDA82FE00F39EF7B12A4D1AE /* HanekeSwift */ = {
@@ -553,7 +550,7 @@
 			);
 			name = HanekeSwift;
 			productName = Haneke;
-			productReference = 9B9369D059BE317AE8B96A55B3AA2AD4 /* HanekeSwift */;
+			productReference = 9B9369D059BE317AE8B96A55B3AA2AD4 /* Haneke.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B83962442C60E39157669990BBF0C5A7 /* Pods-GetaroundMobileChallenge */ = {
@@ -592,7 +589,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -602,7 +599,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1320;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -903,7 +900,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -937,7 +934,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift/HanekeSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HanekeSwift/HanekeSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -973,7 +970,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1009,7 +1006,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1043,7 +1040,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift/HanekeSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HanekeSwift/HanekeSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1077,7 +1074,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

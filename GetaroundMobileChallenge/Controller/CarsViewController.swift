@@ -8,18 +8,26 @@
 import UIKit
 import Alamofire
 
-class CarsViewController: UIViewController, UITableViewDataSource {
+class CarsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var cars: [Car] = []
+    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fetchRepos()
-        tableView.rowHeight = UITableView.automaticDimension
+        self.title = "Voitures disponibles"
+        
+        // Get the cars list from APIManager
+        APIManager.getCars { [weak self] (cars) in
+            self?.cars = cars
+            self?.tableView.reloadData()
+        }
         tableView.dataSource = self
+        tableView.delegate = self
     }
     
+    // Return the numbers of cars
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return cars.count
     }
@@ -30,17 +38,18 @@ class CarsViewController: UIViewController, UITableViewDataSource {
         return cell
     }
     
-}
-
-extension CarsViewController {
+    // Perform segue to CarDetailsViewController when a cell is selected
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath)
+        performSegue(withIdentifier: "ListToDetailsSegue", sender: cell)
+    }
     
-    func fetchRepos() {
-        let request = AF.request("https://raw.githubusercontent.com/drivy/mobile-technical-test/master/api/cars.json")
-        
-        request.responseDecodable(of: [Car].self) { [weak self] (response) in
-            guard let cars = response.value else { return }
-            self?.cars = cars
-            self?.tableView.reloadData()
+    // Pass car data to CarDetailsViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? CarDetailsViewController {
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                vc.car = cars[indexPath.row]
+            }
         }
     }
     

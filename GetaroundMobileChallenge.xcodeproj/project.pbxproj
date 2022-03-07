@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		192CC14767FF05A3B4FABFAF /* Pods_GetaroundMobileChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FCDBE6672E8AB1ACA60E57 /* Pods_GetaroundMobileChallenge.framework */; };
+		A36E6B9D27D648250043A40B /* CarDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E6B9C27D648250043A40B /* CarDetailsViewController.swift */; };
+		A36E6BA027D65E480043A40B /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E6B9F27D65E480043A40B /* APIManager.swift */; };
 		A3DCA5BE27D258DD005930B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5BD27D258DD005930B5 /* AppDelegate.swift */; };
 		A3DCA5C027D258DD005930B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5BF27D258DD005930B5 /* SceneDelegate.swift */; };
 		A3DCA5C227D258DD005930B5 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5C127D258DD005930B5 /* CarsViewController.swift */; };
@@ -17,11 +19,13 @@
 		A3DCA5D227D25B2B005930B5 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5D127D25B2B005930B5 /* Car.swift */; };
 		A3DCA5D427D25B6B005930B5 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5D327D25B6A005930B5 /* Rating.swift */; };
 		A3DCA5D627D25B9E005930B5 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5D527D25B9E005930B5 /* Owner.swift */; };
-		A3DCA5D827D269DA005930B5 /* CarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5D727D269DA005930B5 /* CarCollectionViewCell.swift */; };
+		A3DCA5D827D269DA005930B5 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCA5D727D269DA005930B5 /* CarTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50FCDBE6672E8AB1ACA60E57 /* Pods_GetaroundMobileChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetaroundMobileChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36E6B9C27D648250043A40B /* CarDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsViewController.swift; sourceTree = "<group>"; };
+		A36E6B9F27D65E480043A40B /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		A3DCA5BA27D258DD005930B5 /* GetaroundMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetaroundMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DCA5BD27D258DD005930B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3DCA5BF27D258DD005930B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +37,7 @@
 		A3DCA5D127D25B2B005930B5 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		A3DCA5D327D25B6A005930B5 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		A3DCA5D527D25B9E005930B5 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
-		A3DCA5D727D269DA005930B5 /* CarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCollectionViewCell.swift; sourceTree = "<group>"; };
+		A3DCA5D727D269DA005930B5 /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
 		A800040E5DDBEBCF096BEF64 /* Pods-GetaroundMobileChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetaroundMobileChallenge.debug.xcconfig"; path = "Target Support Files/Pods-GetaroundMobileChallenge/Pods-GetaroundMobileChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		E5E2F453D09210D4C314DF96 /* Pods-GetaroundMobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetaroundMobileChallenge.release.xcconfig"; path = "Target Support Files/Pods-GetaroundMobileChallenge/Pods-GetaroundMobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				A3DCA5C127D258DD005930B5 /* CarsViewController.swift */,
+				A36E6B9C27D648250043A40B /* CarDetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -80,9 +85,17 @@
 		A36E6B9A27D636D80043A40B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A3DCA5D727D269DA005930B5 /* CarCollectionViewCell.swift */,
+				A3DCA5D727D269DA005930B5 /* CarTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A36E6B9E27D65CCB0043A40B /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				A36E6B9F27D65E480043A40B /* APIManager.swift */,
+			);
+			path = Provider;
 			sourceTree = "<group>";
 		};
 		A3DCA5B127D258DD005930B5 = {
@@ -112,6 +125,7 @@
 				A3DCA5C627D258DE005930B5 /* Assets.xcassets */,
 				A36E6B9727D636770043A40B /* Controller */,
 				A36E6B9827D6368C0043A40B /* Entity */,
+				A36E6B9E27D65CCB0043A40B /* Provider */,
 				A36E6B9927D636B60043A40B /* Storyboard */,
 				A36E6B9A27D636D80043A40B /* View */,
 			);
@@ -251,9 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3DCA5C227D258DD005930B5 /* CarsViewController.swift in Sources */,
-				A3DCA5D827D269DA005930B5 /* CarCollectionViewCell.swift in Sources */,
+				A3DCA5D827D269DA005930B5 /* CarTableViewCell.swift in Sources */,
 				A3DCA5D627D25B9E005930B5 /* Owner.swift in Sources */,
+				A36E6BA027D65E480043A40B /* APIManager.swift in Sources */,
 				A3DCA5BE27D258DD005930B5 /* AppDelegate.swift in Sources */,
+				A36E6B9D27D648250043A40B /* CarDetailsViewController.swift in Sources */,
 				A3DCA5D427D25B6B005930B5 /* Rating.swift in Sources */,
 				A3DCA5D227D25B2B005930B5 /* Car.swift in Sources */,
 				A3DCA5C027D258DD005930B5 /* SceneDelegate.swift in Sources */,
@@ -424,7 +440,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,7 +470,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
